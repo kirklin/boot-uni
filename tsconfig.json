@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["src/*"]
+    },
+    "lib": ["esnext", "dom"],
+    "types": ["@dcloudio/types", "types"],
+    "allowSyntheticDefaultImports": true
+  },
+  "exclude": ["dist", "node_modules"]
+}
